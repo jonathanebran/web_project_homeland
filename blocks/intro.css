@@ -31,8 +31,53 @@
   max-width: 722px;
   margin: 0px;
 }
-@media (max-width: 544px) {
-}
 
 @media (max-width: 1024px) {
+  .intro {
+    margin: 90px auto 88px;
+  }
+  .intro__title {
+    font-size: 45px;
+    max-width: 707px;
+    margin: auto auto 50px;
+  }
+
+  .intro__quote {
+    margin: 0px 0px 26px;
+    max-width: 720px;
+  }
+
+  .intro__quote_author {
+    margin: 0px 0px 32px;
+  }
+
+  .intro__text {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 544px) {
+  .intro {
+    margin: 64px auto;
+  }
+  .intro__title {
+    font-size: 32px;
+    max-width: 288px;
+    margin: auto auto 40px;
+  }
+
+  .intro__quote {
+    margin: 0px 0px 10px;
+    max-width: 288px;
+  }
+
+  .intro__quote_author {
+    margin: 0px 0px 32px;
+  }
+
+  .intro__text {
+    max-width: 288px;
+    margin: 0 auto;
+  }
 }
