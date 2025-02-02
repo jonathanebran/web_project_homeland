@@ -2,101 +2,14 @@
 
 @import url(../vendor/fonts.css);
 
-.page {
-  min-width: 1280px;
-  max-width: 1600px;
-  width: 100%;
-  height: 100%;
-  margin: auto;
-  font-family: "Inter", Arial, sans-serif;
-  color: #ffffff;
-  font-size: 16px;
-  background-color: #2a2c2f;
-  background-size: cover;
-}
+@import url(../blocks/page.css);
 
-.header {
-  display: flex;
-  justify-content: center;
-}
-.header__logo {
-  width: 254px;
-  margin: 34px auto auto;
-}
+@import url(../blocks/header.css);
 
-.content {
-  display: flex;
-  flex-direction: column;
-}
+@import url(../blocks/content.css);
 
-.lead {
-  display: flex;
-  flex-direction: column;
-  max-width: 984px;
-  margin: 90px auto auto;
-}
+@import url(../blocks/lead.css);
 
-.lead__title {
-  font-size: 96px;
-  max-width: 720px;
-  font-weight: 900;
-  text-align: center;
-  margin: auto auto 32px auto;
-}
-.lead__subtitle {
-  margin: auto auto 64px auto;
-  font-size: 30px;
-  text-align: center;
-  max-width: 720px;
-}
+@import url(../blocks/intro.css);
 
-.lead__image {
-  width: 984px;
-  margin: auto auto;
-}
-
-.intro {
-  display: flex;
-  flex-direction: column;
-  max-width: 830px;
-  margin: 92px 302px 92px 148px;
-}
-.intro__title {
-  font-size: 54px;
-  font-weight: 900;
-  text-align: left;
-  max-width: 830px;
-  margin: auto auto 40px;
-}
-
-.intro__quote {
-  font-size: 24px;
-  line-height: 34px;
-  text-align: left;
-  margin: 0px 0px 10px;
-  max-width: 738px;
-}
-
-.intro__quote_author {
-  font-size: 24px;
-  text-align: right;
-  margin: 0px 0px 34px;
-}
-
-.intro__text {
-  line-height: 26.08px;
-  text-align: left;
-  max-width: 722px;
-  margin: 0px;
-}
-
-.footer {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer__copyright {
-  margin: auto auto 24px;
-  font-size: 14px;
-  text-align: right;
-}
+@import url(../blocks/footer.css);
