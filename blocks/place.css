@@ -82,11 +82,6 @@
 }
 
 @media (max-width: 1024px) {
-  .places {
-    gap: 72px;
-    max-width: 720px;
-    margin: auto auto 90px;
-  }
   .place {
     gap: 48px 28px;
     max-width: 720px;
@@ -123,11 +118,6 @@
 }
 
 @media (max-width: 544px) {
-  .places {
-    row-gap: 50px;
-    max-width: 320px;
-    margin: auto auto 65px;
-  }
   .place {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
