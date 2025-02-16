@@ -46,13 +46,14 @@
   padding: 0px;
   background-image: linear-gradient(to right, #0278fe, #003a7b);
   color: #fff;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
-}
-
-.place__button__link {
   font-size: 18px;
   text-decoration: none;
   color: #fff;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+.place__image:hover {
+  opacity: 0.5;
 }
 
 .place__website {
@@ -163,11 +164,9 @@
     width: 100%;
     max-width: 288px;
     margin: 0px auto;
-  }
-
-  .place__button__link {
     font-size: 14px;
   }
+
   .place__website {
     grid-area: website;
     max-width: 288px;
